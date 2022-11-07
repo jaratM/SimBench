@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "generateScript",
+    "pageId": "Options",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\tmyFun2: async () => {\n\tif(Table1.selectedRows.length != 0){\n\t\tCreateSH.run((data) => \n\t\t\t\t\tdownload(data,'script.sh')\n\t\t\t\t\t\t\t);\n\t}\n\t\telse{\n\t\t showAlert(\"You should select at least one row\");\n\t\t}\n\t}\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Options_generateScript",
+  "deleted": false,
+  "gitSyncId": "634e76bb273bd831400b677d_63590b22eca5bd4f857a0867"
+}
